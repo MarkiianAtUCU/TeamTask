@@ -46,15 +46,6 @@ def create_mail(clients, box):
         t = input("[Mail type] (1,2,3)> ")
     box.add_mail_info(MailInfo(clients[int(n)-1], t, text))
 
-
-
-
-clients.append(Client("markian", 18, "male",
-                                  "matsiuk@ucu.edu.ua", "None"))
-clients.append(Client("vitalik", 18, "male",
-                                  "vorobyov@ucu.edu.ua", "lul"))
-
-
 while True:
     os.system("cls")
     print(menu)
